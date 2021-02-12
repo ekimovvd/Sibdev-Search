@@ -1,0 +1,99 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+div,
+p,
+input,
+form {
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+input {
+  width: 100%;
+  display: block;
+  border: 1px solid rgba(23, 23, 25, 0.2);
+  border-radius: 5px;
+  font-size: 20px;
+  color: #272727;
+  padding: 12px 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+  background: rgba(197, 228, 249, 0.3);
+  border: 1px solid #1390e5;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.auth {
+  padding-top: 140px;
+}
+
+.main-layout {
+  // position: relative;
+}

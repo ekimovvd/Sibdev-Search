@@ -1,0 +1,39 @@
+.search-filter {
+  display: flex;
+  align-items: center;
+
+  .search-flter__title {
+    margin-right: 15px;
+
+    span {
+      font-weight: 500;
+    }
+  }
+
+  .search-filter__text {
+    font-size: 16px;
+    color: rgba(23, 23, 25, 0.3);
+  }
+
+  .search-filter__switcher {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    .search-filter__icon {
+      display: block;
+      font-size: 24px;
+      cursor: pointer;
+      opacity: 0.3;
+
+      &.search-filter__icon_active {
+        opacity: 1;
+      }
+
+      &.search-filter__icon_list {
+        font-size: 31px;
+        margin-right: 15px;
+      }
+    }
+  }
+}

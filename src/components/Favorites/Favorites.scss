@@ -1,0 +1,62 @@
+.favorites {
+  padding-top: 40px;
+
+  .favorites-form {
+    .favorites-form__title {
+      margin-bottom: 40px;
+    }
+
+    .favorites-form__requests {
+      display: flex;
+      flex-direction: column;
+
+      .favorites-form__request {
+        background: #ffffff;
+        padding: 13px 20px;
+        border-bottom: 1px solid #f1f1f1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .favorites-form__link {
+          color: #000000;
+          cursor: pointer;
+
+          .favorites-form__text {
+            font-size: 16px;
+          }
+        }
+
+        &:hover {
+          .favorites-form__group {
+            display: block;
+          }
+        }
+
+        .favorites-form__group {
+          display: flex;
+          align-items: center;
+          display: none;
+
+          .favorites-form__btn {
+            padding: 0;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 400;
+
+            &.favorites-form__btn_edit {
+              color: #1390e5;
+              margin-right: 30px;
+            }
+
+            &.favorites-form__btn_delete {
+              color: #ff0000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
